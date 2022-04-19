@@ -64,7 +64,6 @@ public class InterfazJuego extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         LabelNombre = new javax.swing.JLabel();
         BotonLimpiar = new javax.swing.JButton();
-        BotonAlimentar1 = new javax.swing.JButton();
         BotonPasear = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         labelEnfermedades = new javax.swing.JLabel();
@@ -84,9 +83,10 @@ public class InterfazJuego extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         MenuTienda = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        MenuReportes = new javax.swing.JMenu();
         MenuAcercaDe = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
         MenuAyuda = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -216,8 +216,6 @@ public class InterfazJuego extends javax.swing.JFrame {
             }
         });
 
-        BotonAlimentar1.setText("Curar");
-
         BotonPasear.setText("Pasear");
         BotonPasear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -342,11 +340,11 @@ public class InterfazJuego extends javax.swing.JFrame {
                                         .addComponent(BotonMascota5, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(0, 0, Short.MAX_VALUE))))
                     .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 165, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(imagenPokemon, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 165, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(imagenPokemon, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jLabel4)
@@ -368,22 +366,18 @@ public class InterfazJuego extends javax.swing.JFrame {
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel6)
                                             .addComponent(jLabel2)
-                                            .addComponent(jLabel7))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(labelLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(labelEnfermedades, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(labelMostrarHambre, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(labelPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(jLabel7)))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(BotonAlimentar1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BotonPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(97, 122, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(BotonLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(210, 210, 210))))
+                                .addComponent(BotonLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(114, 114, 114)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(labelLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelEnfermedades, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelMostrarHambre, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(BotonPasear, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(97, 122, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -419,7 +413,8 @@ public class InterfazJuego extends javax.swing.JFrame {
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(labelMostrarHambre, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(LabelNivel, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel2))
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel4))
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING)
@@ -454,17 +449,8 @@ public class InterfazJuego extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addComponent(imagenPokemon, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(jLabel4)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(BotonAlimentar1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BotonPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(BotonLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(98, 98, 98))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(70, 70, 70)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -472,7 +458,13 @@ public class InterfazJuego extends javax.swing.JFrame {
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addComponent(BotonRevivir, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BotonLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(BotonPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(158, 158, 158))))
         );
 
         jMenuBar1.setBackground(new java.awt.Color(138, 196, 204));
@@ -499,24 +491,37 @@ public class InterfazJuego extends javax.swing.JFrame {
 
         jMenuBar1.add(MenuTienda);
 
-        MenuReportes.setBackground(new java.awt.Color(139, 196, 204));
-        MenuReportes.setForeground(new java.awt.Color(0, 0, 0));
-        MenuReportes.setText("Reportes");
-        MenuReportes.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MenuReportesActionPerformed(evt);
-            }
-        });
-        jMenuBar1.add(MenuReportes);
-
         MenuAcercaDe.setBackground(new java.awt.Color(139, 196, 204));
         MenuAcercaDe.setForeground(new java.awt.Color(0, 0, 0));
         MenuAcercaDe.setText("Acerca de");
+        MenuAcercaDe.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MenuAcercaDeActionPerformed(evt);
+            }
+        });
+
+        jMenuItem2.setText("Abrir");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        MenuAcercaDe.add(jMenuItem2);
+
         jMenuBar1.add(MenuAcercaDe);
 
         MenuAyuda.setBackground(new java.awt.Color(138, 196, 204));
         MenuAyuda.setForeground(new java.awt.Color(0, 0, 0));
         MenuAyuda.setText("Ayuda");
+
+        jMenuItem3.setText("Abrir");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        MenuAyuda.add(jMenuItem3);
+
         jMenuBar1.add(MenuAyuda);
 
         setJMenuBar(jMenuBar1);
@@ -667,9 +672,19 @@ public class InterfazJuego extends javax.swing.JFrame {
         tienda.aumentarDinero();
     }//GEN-LAST:event_BotonPasearActionPerformed
 
-    private void MenuReportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuReportesActionPerformed
-        JOptionPane.showMessageDialog(this, "Esta aplicacion fue echa con el fin de que los empleados de una empresa se puedan divertir de manera sana\n ya que se determino que estos pueden manejar su estres y ser mas productivos si tiene un tiempo para realizar otras actividades ");
-    }//GEN-LAST:event_MenuReportesActionPerformed
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        AcercaDe ventana = new AcercaDe();
+        ventana.setVisible(true);
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void MenuAcercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuAcercaDeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_MenuAcercaDeActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        ApartadoAyuda ayuda = new ApartadoAyuda();
+        ayuda.setVisible(true);
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void mostrarPokemon(int noMascota) {
         if (tienda.pokemones[noMascota].isVivo()) {
@@ -694,7 +709,6 @@ public class InterfazJuego extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BotonAlimentar1;
     private javax.swing.JButton BotonLimpiar;
     private javax.swing.JButton BotonMascota1;
     private javax.swing.JButton BotonMascota10;
@@ -713,7 +727,6 @@ public class InterfazJuego extends javax.swing.JFrame {
     private javax.swing.JLabel LabelTipo;
     private javax.swing.JMenu MenuAcercaDe;
     private javax.swing.JMenu MenuAyuda;
-    private javax.swing.JMenu MenuReportes;
     private javax.swing.JMenu MenuTienda;
     private javax.swing.JLabel NombreMascota1;
     private javax.swing.JLabel NombreMascota10;
@@ -738,6 +751,8 @@ public class InterfazJuego extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField labelAnimalARevivir;
     private javax.swing.JLabel labelEfecto;
