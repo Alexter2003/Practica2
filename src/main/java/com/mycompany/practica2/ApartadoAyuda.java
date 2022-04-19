@@ -51,7 +51,7 @@ public class ApartadoAyuda extends javax.swing.JFrame {
         jLabel3.setText("Cuando tu mascota te haya dicho que necesita limpieza. Diregete al boton donde la tienes guadrada ");
 
         jLabel2.setFont(new java.awt.Font("Franklin Gothic Medium Cond", 0, 18)); // NOI18N
-        jLabel2.setText("Y presiona el boton de limpiar, esto hara que tu mascota se limpie");
+        jLabel2.setText("Y presiona el boton de limpiar, esto hara que tu mascota se limpie una vez (tendras que limpiarla varias veces para que no se enferme)");
 
         jLabel1.setFont(new java.awt.Font("Franklin Gothic Medium Cond", 0, 18)); // NOI18N
         jLabel1.setText("Cuando tu mascota te pida pasear. Selecciona el boton donde esta esa mascota");
