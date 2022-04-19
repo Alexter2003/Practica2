@@ -50,6 +50,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Reportes"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuReportesActionPerformed"/>
+          </Events>
         </Menu>
         <Menu class="javax.swing.JMenu" name="MenuAcercaDe">
           <Properties>
@@ -268,14 +271,14 @@
                           <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                           <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="BotonMascota3" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="BotonMascota4" alignment="0" max="32767" attributes="0"/>
-                              <Component id="BotonMascota5" max="32767" attributes="0"/>
-                              <Component id="BotonMascota2" max="32767" attributes="0"/>
-                              <Component id="BotonMascota1" max="32767" attributes="0"/>
+                              <Component id="BotonMascota1" pref="72" max="32767" attributes="0"/>
+                              <Component id="BotonMascota2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BotonMascota3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BotonMascota5" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="NombreMascota4" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -324,13 +327,13 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="BotonMascota6" max="32767" attributes="0"/>
-                                      <Component id="BotonMascota9" max="32767" attributes="0"/>
-                                      <Component id="BotonMascota7" max="32767" attributes="0"/>
-                                      <Component id="BotonMascota8" max="32767" attributes="0"/>
+                                      <Component id="BotonMascota9" pref="85" max="32767" attributes="0"/>
+                                      <Component id="BotonMascota6" alignment="0" max="32767" attributes="0"/>
                                       <Component id="BotonMascota10" max="32767" attributes="0"/>
+                                      <Component id="BotonMascota8" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="BotonMascota7" alignment="0" max="32767" attributes="0"/>
                                   </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="NombreMascota7" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
                                       <Component id="NombreMascota9" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
@@ -352,7 +355,7 @@
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace pref="26" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="BotonAlimentar1" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
                               <Component id="BotonPasear" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
@@ -504,101 +507,51 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\No0.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota2">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\1.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota2ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota3">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\2.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota3ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota4">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\3.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota4ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota5">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\4.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota5ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota6">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\6.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota6ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota7">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\7.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota7ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota8">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\8.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota8ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota9">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\5.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota9ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotonMascota10">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\julio\Documents\Tareas universidad tercer semestre\intro a la progra\Practica2\src\main\java\com\mycompany\practica2\imagenes\9.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMascota10ActionPerformed"/>
           </Events>

@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>package com.mycompany.practica2.InterfazJuego</mainClass>
+                            <mainClass>com.mycompany.practica2.mainJuego</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

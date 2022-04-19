@@ -135,70 +135,60 @@ public class InterfazJuego extends javax.swing.JFrame {
         NombreMascota10.setForeground(new java.awt.Color(0, 0, 0));
         NombreMascota10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
-        BotonMascota1.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\No0.png")); // NOI18N
         BotonMascota1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota1ActionPerformed(evt);
             }
         });
 
-        BotonMascota2.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\1.png")); // NOI18N
         BotonMascota2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota2ActionPerformed(evt);
             }
         });
 
-        BotonMascota3.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\2.png")); // NOI18N
         BotonMascota3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota3ActionPerformed(evt);
             }
         });
 
-        BotonMascota4.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\3.png")); // NOI18N
         BotonMascota4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota4ActionPerformed(evt);
             }
         });
 
-        BotonMascota5.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\4.png")); // NOI18N
         BotonMascota5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota5ActionPerformed(evt);
             }
         });
 
-        BotonMascota6.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\6.png")); // NOI18N
         BotonMascota6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota6ActionPerformed(evt);
             }
         });
 
-        BotonMascota7.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\7.png")); // NOI18N
         BotonMascota7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota7ActionPerformed(evt);
             }
         });
 
-        BotonMascota8.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\8.png")); // NOI18N
         BotonMascota8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota8ActionPerformed(evt);
             }
         });
 
-        BotonMascota9.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\5.png")); // NOI18N
         BotonMascota9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota9ActionPerformed(evt);
             }
         });
 
-        BotonMascota10.setIcon(new javax.swing.ImageIcon("C:\\Users\\julio\\Documents\\Tareas universidad tercer semestre\\intro a la progra\\Practica2\\src\\main\\java\\com\\mycompany\\practica2\\imagenes\\9.png")); // NOI18N
         BotonMascota10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonMascota10ActionPerformed(evt);
@@ -403,13 +393,13 @@ public class InterfazJuego extends javax.swing.JFrame {
                         .addGap(21, 21, 21)
                         .addComponent(jLabel11)
                         .addGap(24, 24, 24)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(BotonMascota3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(BotonMascota4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(BotonMascota5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(BotonMascota1, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
                             .addComponent(BotonMascota2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(BotonMascota1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(BotonMascota3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(BotonMascota5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(NombreMascota4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -448,12 +438,12 @@ public class InterfazJuego extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(29, 29, 29)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(BotonMascota9, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)
                                     .addComponent(BotonMascota6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(BotonMascota9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(BotonMascota7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(BotonMascota10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(BotonMascota8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(BotonMascota10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(BotonMascota7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(NombreMascota7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(NombreMascota9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -468,7 +458,7 @@ public class InterfazJuego extends javax.swing.JFrame {
                         .addComponent(jLabel4)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(BotonAlimentar1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BotonPasear, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -512,6 +502,11 @@ public class InterfazJuego extends javax.swing.JFrame {
         MenuReportes.setBackground(new java.awt.Color(139, 196, 204));
         MenuReportes.setForeground(new java.awt.Color(0, 0, 0));
         MenuReportes.setText("Reportes");
+        MenuReportes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MenuReportesActionPerformed(evt);
+            }
+        });
         jMenuBar1.add(MenuReportes);
 
         MenuAcercaDe.setBackground(new java.awt.Color(139, 196, 204));
@@ -672,6 +667,10 @@ public class InterfazJuego extends javax.swing.JFrame {
         tienda.aumentarDinero();
     }//GEN-LAST:event_BotonPasearActionPerformed
 
+    private void MenuReportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuReportesActionPerformed
+        JOptionPane.showMessageDialog(this, "Esta aplicacion fue echa con el fin de que los empleados de una empresa se puedan divertir de manera sana\n ya que se determino que estos pueden manejar su estres y ser mas productivos si tiene un tiempo para realizar otras actividades ");
+    }//GEN-LAST:event_MenuReportesActionPerformed
+
     private void mostrarPokemon(int noMascota) {
         if (tienda.pokemones[noMascota].isVivo()) {
             LabelNombre.setText(tienda.getPokemones(noMascota).getNombre());
@@ -692,37 +691,7 @@ public class InterfazJuego extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(InterfazJuego.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(InterfazJuego.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(InterfazJuego.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(InterfazJuego.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new InterfazJuego().setVisible(true);
-            }
-        });
-    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotonAlimentar1;
